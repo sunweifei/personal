@@ -1,4 +1,5 @@
 # 在REAME 中记录编程中的小总结
+## 滑轮控制
 ```
 // 鼠标滑轮控制div 左右滑动
       function addEvent(obj,xEvent,fn) {
