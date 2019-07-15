@@ -30,3 +30,20 @@
             return false;
       }
  ```
+ ## 判断数组是否有重复元素 
+ ```
+ /*
+ * @param {Array} arr
+ * @return {Boolean}  repeat true
+ */
+ 
+ function isCheck(arr){
+        var b = arr.join(",")
+        for(let i = 0 ; i < b.length ; i++){
+            if(b.replace(arr[i],"").indexOf(arr[i]) > -1){
+                return true
+            }
+        }
+        return false
+    }
+ ```
